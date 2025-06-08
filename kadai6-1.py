@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 APP_ID = "aad65ac8529166d0b87edbe9742e891aa6514233"
-API_URL = "https://www.e-stat.go.jp/mypage/view/api"
+API_URL = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData"
 
 params = {
     "appId": APP_ID,
